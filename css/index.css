@@ -1,5 +1,100 @@
-p {
+
+/*Titles*/
+h2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+/*Menu*/
+.mainmenu {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+    ul li {
+        float: left;
+    }
+
+    ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul li a:hover {
+        background-color: #111111;
+    }
+    /*Menu sticky*/
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+}
+
+/*Sections*/
+#firstSection {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+
+.item {
+  width: 10%; /* Ajusta esto para definir cuántos divs caben por fila */
+  height: auto;
+  background-color: lightblue;
+  /*border: 1px solid blue;*/
+  margin-bottom: 20px;
+  padding: 30px;
+  
+}
+
+
+/*Input Search*/
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
     font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/*Footer*/
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    margin-top: 10px;
 }
