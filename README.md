@@ -12,7 +12,7 @@ How we can navegate into My Open Soccer leagues
 2. You can choose o countries o leagues
 3. If you choosed Countries: 
     Choose a country and clicked on the button Search
-    You can find all leagues related with the countri.
+    You can find all leagues related with the country.
     You can search by country every time that you want.
 4. If you choosed leagues:
     You will find all leagues around the world.
